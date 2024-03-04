@@ -13,15 +13,6 @@
     "prettier:fix": "prettier --write \"**/*.{ts,js,tsx}\"",
     "prettier:check": "prettier --check ."
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --cache --fix"
-    ],
-    "src/**/*.{css,scss,json}": [
-      "prettier --write"
-    ]
-  },
   "dependencies": {
     "next": "14.1.2",
     "react": "^18",
